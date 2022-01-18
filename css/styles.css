@@ -1,0 +1,139 @@
+body { 
+    color: red;
+}
+
+header {
+    color:blue;
+    text-align: center;
+    font-family: Haettenschweiler, Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    position:relative;
+}
+
+footer {
+    padding-top:10px;
+    border: 5px solid rgb(243, 7, 7);
+    margin: 10px;
+}
+
+section {
+    padding:10px 15px;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+aside {
+    padding:10px 15px;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid rgb(243,157, 117);
+}
+
+.section-border {
+    border: 5px solid blue;
+    color: blueviolet;
+    text-align: center;
+}
+
+.centreren {
+    border: 1px solid #000;
+    color: blueviolet;
+    text-align: center;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regenboog {
+    color:green;
+    list-style-image: url(../media/regenboog.png);
+}
+
+.blauwelucht {
+    color:blue;
+    list-style-image: url(../media/blauwelucht.png);
+}
+
+.mist {
+    color:grey;
+    list-style-image: url(../media/mist.png);
+}
+
+#green-background {
+    background-color: green;
+    padding-top:10px;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clr {
+    clear:both;
+}
+
+
+.ul_list_horizontal {
+    list-style-type: none;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.ul_list_horizontal li{
+    padding-right: 10px;
+    display:inline;
+}
+
+.ul_list_horizontal ::marker {
+    color:black;
+}
+
+.ul_list_horizontal li :visited {
+    color:white;
+}
+
+.ul_list_horizontal li :active {
+    color:red;
+}
+
+.ul_list_horizontal li :hover {
+    color:yellow;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        background-color: black;
+        color:yellow;
+
+    } 
+    header {
+        color: red;
+        font-size:18px;
+    }
+    .section-border {
+        background-color: #fff;
+    }
+    .ul_list_horizontal li{
+        margin: 10px;
+        display: block;
+    }
+    .ul_list_horizontal li :hover {
+        color:chocolate;
+    }
+}
+
+@media screen and (min-width: 601px){ 
+    body {
+        background-color:coral;
+        color:darkred;
+
+    } 
+    header {
+        color:darkviolet;
+        font-size:38px;
+    }
+    .section-border {
+        background-color:darkorange;
+    }
+   
+}

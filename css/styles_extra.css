@@ -1,0 +1,17 @@
+body { 
+    color: #11ddcc;
+}
+
+section {
+    border: 5px solid grey;
+    padding-bottom:10px;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ikzelf {
+    border: 5px solid blue;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    width: 100px;
+}
